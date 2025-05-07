@@ -1,0 +1,105 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: #fdfdfd;
+    color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+  }
+    
+  .contenedor {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+  
+  .titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.3em;
+    text-align: center;
+  }
+  
+  .autor {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 2em;
+    font-size: 1.1rem;
+  }
+  
+  .historia p {
+    font-size: 1.25rem;
+    margin-bottom: 1.6em;
+    text-align: justify;
+  }
+  
+  .historia strong {
+    font-weight: bold;
+  }
+  
+  .citas {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #4b3c32;
+    padding-left: 20px;
+    border-left: 3px solid #ccc;
+  }
+  
+  .imagen-historia {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 30px 0;
+  }
+  
+  .imagen {
+    text-align: center;
+  }
+
+/* MEDIA QUERY */
+
+
+/* telefonos */
+@media (max-width: 480px) {
+  .contenedor {
+    padding: 0 15px;
+    margin: 30px auto;
+  }
+
+  .titulo {
+    font-size: 2rem;
+  }
+
+  .autor {
+    font-size: 1rem;
+  }
+
+  .historia p {
+    font-size: 1.1rem;
+  }
+
+  .citas {
+    font-size: 1.05rem;
+    padding-left: 15px;
+    border-left: 2px solid #bbb;
+  }
+
+  .imagen-historia {
+    max-height: 250px;
+  }
+}
+
+/* tablets */
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 2.2rem;
+  }
+
+  .historia p {
+    font-size: 1.15rem;
+  }
+}
+  
